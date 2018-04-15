@@ -160,7 +160,6 @@ class LinkitField extends Field
             'linkit/fields/_input',
             [
                 'id' => $id,
-                'namespacedId' => $namespacedId,
                 'name' => $this->handle,
                 'field' => $this,
                 'element' => $element,
