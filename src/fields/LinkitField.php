@@ -163,6 +163,7 @@ class LinkitField extends Field
                 'name' => $this->handle,
                 'field' => $this,
                 'element' => $element,
+                'currentLinkType' => $this->handle."\\".$value['type'],
                 'currentLink' => $value,
             ]
         );
